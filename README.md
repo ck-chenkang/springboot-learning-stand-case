@@ -164,7 +164,7 @@ private TestService testService;
 * 第06课：Spring Boot集成Swagger2展现在线接口文档
 * 第07课：Spring Boot集成Thymeleaf模板引擎
 * 第08课：Spring Boot中的全局异常处理
-* 第00课：Spring Boot中的切面AOP处理
+* 第09课：Spring Boot中的切面AOP处理
 * 第10课：Spring Boot中集成MyBatis
 * 第11课：Spring Boot事务配置管理
 * 第12课：Spring Boot中使用监听器
