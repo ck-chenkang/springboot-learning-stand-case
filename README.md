@@ -134,6 +134,8 @@ private TestService testService;
 * 热衷于新技术并对 Spring Boot 感兴趣的人员
 * 希望了解 Spring Boot 2.0.3 的研究人员
 
+## 5. 本课程开发环境和插件
+
 本课程的开发环境：
 * 开发工具：IDEA 2017
 * JDK版本： JDK 1.8
@@ -151,7 +153,7 @@ private TestService testService;
 * Lucence
 
 
-## 5. 课程目录
+## 6. 课程目录
 
 * 导读：课程概览
 * 第01课：Spring Boot开发环境搭建和项目启动
