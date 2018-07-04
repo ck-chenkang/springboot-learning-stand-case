@@ -39,16 +39,52 @@ public class TestController {
         return "success";
     }
 
+    /**
+     * 测试@RequestParam注解
+     * @param id
+     * @return
+     */
     @GetMapping("/user")
     public String testRequestParam(@RequestParam Integer id) {
         System.out.println("获取到的id为：" + id);
         return "success";
     }
 
+    /**
+     * 测试@RequestBody注解
+     * @param user
+     * @return
+     */
     @PostMapping("/user")
     public String testRequestBody(@RequestBody User user) {
         System.out.println("获取到的username为：" + user.getUsername());
         System.out.println("获取到的password为：" + user.getPassword());
         return "success";
     }
+
+    /**
+     * 测试@RequestParam多个参数（表单提交）
+     * @param username
+     * @param password
+     * @return
+     */
+    @PostMapping("/form1")
+    public String testForm(@RequestParam String username, @RequestParam String password) {
+        System.out.println("获取到的username为：" + username);
+        System.out.println("获取到的password为：" + password);
+        return "success";
+    }
+
+    /**
+     * 测试表单提交，接收实体前不能加@RequestBody注解
+     * @param user
+     * @return
+     */
+    @PostMapping("/form2")
+    public String testForm(User user) {
+        System.out.println("获取到的username为：" + user.getUsername());
+        System.out.println("获取到的password为：" + user.getPassword());
+        return "success";
+    }
+
 }
