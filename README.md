@@ -1,5 +1,7 @@
 # 跟武哥一起学习 Sping Boot 课程源码
 
+> 课程地址：[跟武哥一起学Spring Boot](https://gitbook.cn/gitchat/column/5b3c9f35a3442272491a176a)
+
 # 导读：课程概览
 
 ## 1. Spring Boot是什么
