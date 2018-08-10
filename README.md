@@ -177,3 +177,6 @@ private TestService testService;
 * 第17课：Spring Boot中结成Lucence
 * 第18课：Spring Boot应用的打包与部署
 * 第19课：Spring Boot搭建实际项目开发中的架构
+
+我的微信公众号：程序员私房菜（关注有惊喜~）
+![程序员私房菜](http://p99jlm9k5.bkt.clouddn.com/blog/image/4/weichat.jpg)
