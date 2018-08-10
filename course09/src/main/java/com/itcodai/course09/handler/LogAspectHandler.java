@@ -87,7 +87,7 @@ public class LogAspectHandler {
         Signature signature = joinPoint.getSignature();
         String method = signature.getName();
         // 处理异常的逻辑
-        logger.info("执行方法{}出错，异常为：{}", method, ex);
+        logger.info("执行方法{}出错，异常为：{}", method, ex.getMessage());
     }
 
 }
